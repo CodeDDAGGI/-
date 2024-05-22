@@ -1,0 +1,14 @@
+intellij
+
+클래스
+구조
+대문자 시작이면 클래스
+
+
+복사
+ctrl +D
+
+ObjectA      objectA1 = new ObjectA()
+자료형 정의  사용하겠다   주소 대입
+
+함수
