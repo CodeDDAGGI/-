@@ -26,6 +26,7 @@
 // git remote add origin https://github.com/CodeDDAGGI/git_study.git 저장소의 주소를 추가
 // origin 키워드
 
+// 깃허브에서 파일을 받아오거나 할때 기존 파일이 없을시
 // git clone 주소(파일이 없을 경우)
 
 // 기존의 파일이 존재할 시
