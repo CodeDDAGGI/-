@@ -1,0 +1,32 @@
+// git 사용법
+
+// git 복사 shift + insert
+
+// git -v 버젼 체크
+// git config --global user.name 사용자이름 체크 및 저장
+// git config --global user.email 사용자 이메일 체크 및 저장
+// git init  초기화
+// git status 깃의 상태 확인
+
+// git add . 모든 내용을 올릴때
+// git add 파일명 파일명을 올릴때  
+// 작성 후 다시 git status로 파일을 확인
+
+// git commit -m"사용자 정보 추가" -> 아이디 bOd8de5 
+// git log -> 사용자 정보 내역 추가
+
+// git checkout "아이디" -> 커밋된 시점으로 불러오기
+// git reset 
+
+// 문구
+// modified 기존의 파일에 수정이 일어남
+// new file 새로운 파일 추가댐
+// HEAD 현재 저장 위치
+
+// git remote add origin https://github.com/CodeDDAGGI/git_study.git 저장소의 주소를 추가
+// origin 키워드
+
+// 소스트리 
+// git 저장소랑 비슷
+
+// q 되돌아가기
