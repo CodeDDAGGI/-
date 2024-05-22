@@ -6,7 +6,7 @@
 // git config --global user.name 사용자이름 체크 및 저장
 // git config --global user.email 사용자 이메일 체크 및 저장
 // git init  초기화
-// git status 깃의 상태 확인
+// git status 현재 깃의 로컬 상태 확인
 
 // git add . 모든 내용을 올릴때
 // git add 파일명 파일명을 올릴때  
@@ -25,6 +25,14 @@
 
 // git remote add origin https://github.com/CodeDDAGGI/git_study.git 저장소의 주소를 추가
 // origin 키워드
+
+// git clone 주소(파일이 없을 경우)
+
+// 기존의 파일이 존재할 시
+// git fetch 깃허브랑 파일의 내용을 동일하게 상태를 만들어줌
+
+// git pull 정보를 가져오기
+
 
 // 소스트리 
 // git 저장소랑 비슷
