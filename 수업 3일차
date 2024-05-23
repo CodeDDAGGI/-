@@ -1,0 +1,64 @@
+intellij 수업
+
+오버로딩
+동일한 메소드명을 쓸때 매개변수 자료형은 다를수 있고 리턴타입 같아야한다
+(자료형이 다르고 순서가 다를 때, 매개변수의 갯수가 다를때)
+
+    오버로딩 예시
+
+    void add(int a , int b) {
+        System.out.println(a + b);
+    }
+
+    int add(int a, int b){
+        return System.out.println(a + b);
+    }  // 위의 함수랑 같은 자료형이여서 어느 곳에 함수를 실행할지 찾지 못한다. 오류
+
+    void add(int a , int b) {
+         System.out.println(a + b);
+        }  //정수 + 정수면 구분을 못함 - 오류 같은 자료형으로 재정의할수없음
+
+    void add(int a, int b, int c){
+        System.out.println(a + b + c);
+    }
+
+    int sub(int a, int b){
+        return  a - b;
+    }
+
+    int sub(int a, int b , int c){
+        return  a - b;
+    }
+
+    매개변수 자료형이 중요
+    void add(int a, String b){
+        int c = Integer.parseInt(b);
+        System.out.println(a + c);
+    }
+
+오버라이딩
+
+오버로딩, 오버라이딩 서로 다름(비교대상x)
+
+🍇변수명,함수명 작성 팁
+
+클래스명 뒤에 ctrl + 스페이스바 자동완성 기능
+ex) Function04 function04
+
+클래스 (변수 + 기능을 가짐)
+변수:명사
+기능:동사
+
+메모리
+예시) 작업관리자 메모리
+남아있는 메모리는 힙영역일수 있어서 메모리를 빌려서 쓸수 있다(동적 메모리 할당)
+
+스택(stack)
+int a = 10 + 20;
+-> -> -> (데이터 누적)
+읽어올땐
+20 + 10 = a int
+-> -> ->
+
+
+클래스 누르고 F5: 복사
