@@ -26,8 +26,6 @@
 // git remote add origin https://github.com/CodeDDAGGI/git_study.git 저장소의 주소를 추가
 // origin 키워드
 
-// 깃허브에서 파일을 받아오거나 할때 기존 파일이 없을시
-// git clone 주소(파일이 없을 경우)
 
 // 기존의 파일이 존재할 시 (깃허브에 레파지토리에 수정분이 있을경우)
 // git fetch 깃허브랑 파일의 내용을 동일하게 상태를 만들어줌
@@ -38,6 +36,16 @@
 // git add .
 // git commit -m"ment"
 // git push
+
+// 깃허브에서 파일 가져오기
+// 깃허브에서 파일을 받아오거나 할때 기존 파일이 없을시
+// git clone 주소(파일이 없을 경우)
+
+// git add .
+// git commit -m"ment"
+// git fetch
+// git pull
+
 
 // 소스트리 
 // git 저장소랑 비슷
