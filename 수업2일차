@@ -34,6 +34,10 @@
 
 // git pull 정보를 가져오기
 
+// 작업한 파일 깃허브 업로드
+// git add .
+// git commit -m"ment"
+// git push
 
 // 소스트리 
 // git 저장소랑 비슷
