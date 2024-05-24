@@ -43,7 +43,7 @@
 
 // git add .
 // git commit -m"ment"
-// git fetch
+// git fetch  작동 안할때 git stash
 // git pull
 
 
