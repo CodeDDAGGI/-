@@ -41,8 +41,11 @@
 // 깃허브에서 파일을 받아오거나 할때 기존 파일이 없을시
 // git clone 주소(파일이 없을 경우)
 
-// git fetch  작동 안할때 git stash
-// git pull
+
+// git fetch  작동 안할때 git stash 파일 가져올떄
+// git pull  파일 가져올떄
+
+// 파일올릴떄
 // git add .
 // git commit -m"ment"
 // git push
