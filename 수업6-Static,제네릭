@@ -13,3 +13,8 @@ https://www.tcpschool.com/java/java_collectionFramework_concept
 Iterable 순회 반복(기능) - forEach랑 비슷
 Collection 상위 인터페이스
 
+Message<T1,T2> -> data1 , data2
+Entry<k , v> -> key, value
+Map -> Entry
+Map Entry< s , s >
+
