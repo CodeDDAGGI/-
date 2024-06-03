@@ -1,0 +1,15 @@
+스태틱 적용시
+하나의 주소로 여러 개에 적용할때
+
+싱글톤에 쓰는 이유
+여러 객체에 하나만 공유해야할 경우
+핵심 기술은 스태틱
+
+
+참고용 자료
+https://www.tcpschool.com/java/java_collectionFramework_concept
+
+컬렉션 프레임워크
+Iterable 순회 반복(기능) - forEach랑 비슷
+Collection 상위 인터페이스
+
