@@ -36,3 +36,16 @@ var banana = apple;
 변경된 변수명으로 함수 호출
 banana( );
 result : This is a banana.
+
+콜백 함수
+
+다른 함수가 실행을 끝낸 뒤 실행되는 함수
+functio func(callback) {
+	callback();
+}
+function callback() {
+	console.log("callback이다");
+}
+
+func(callback);
+
