@@ -1,0 +1,38 @@
+함수
+function add (x , y){
+  console.log(x + y);
+}
+
+add(1,5);
+
+익명 함수
+
+var 변수명 = function(매개변수)
+{
+  실행문;
+};
+
+선언 
+
+익명 함수 선언 및 변수에 대입
+  var hello = function( ) {
+    document.write("Hello World!");
+  };
+
+익명 함수 변수명으로 호출
+hello();
+// result : Hello World!
+
+변수명 변경
+
+익명 함수 선언
+var apple = function( ) {
+  document.write("This is a banana.");
+};
+
+변수명 교체
+var banana = apple;
+
+변경된 변수명으로 함수 호출
+banana( );
+result : This is a banana.
