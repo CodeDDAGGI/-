@@ -1,0 +1,52 @@
+map
+[10, 20, 30].map(function) 매개변수로 함수를 가져옴
+                () =>{}
+            10,20,30이 차례로 ()들어감
+
+map을 호출하면 새로운 빈배열만듬 ( newList =[];)
+실제동작
+for(){ 배열의 길이만큼 반복
+  const a = aList[i];
+  newList = [...newList,fx(a,i)];
+}
+return newList;
+}
+
+
+const fx = (value, index) => {
+
+  return
+}
+구문이 fx(a,i) 호출
+
+map 동작 구분
+let aList = [ 10 , 20 , 30];
+
+function map(fx){
+  let newList = [];
+  for(let i =0; i < alist.length; i++){
+    const a = alist[i]
+    newList = [...newList, fx(a,i)];
+  }
+return newList;
+}
+
+map((value, index) => {
+  
+})
+
+filter 동작 구분
+function filter(fx){
+  let newList = [];
+  for(let i =0; i < alist.length; i++){
+    const a = alist[i]
+    if(fx(a,i)){
+    newList = [ ...newList, a];
+    }
+  }
+  return newList;
+}
+
+filter((value, index) => {
+  return value.username !== 'b';
+})
