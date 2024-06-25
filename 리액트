@@ -1,0 +1,15 @@
+useEffect(() => {
+        if(isDeleting) {
+            setProducts([...viewProducts
+                .filter(viewProducts => viewProducts.isChecked === false)
+                .map(viewProducts => {
+                    const { isChecked , ...product } = viewProducts;    // rest문법
+                                                                        // viewProducts에서 isChecked를 
+                                                                        //제외한 나머지 속성들만 새로운 객체(product)로 만듬
+                    return product;
+                })
+            ]);
+            setMode(0);
+            setIsDeleting(false);
+        }
+    },[isDeleting])
