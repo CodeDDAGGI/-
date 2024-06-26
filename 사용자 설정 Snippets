@@ -4,3 +4,12 @@ file > Preferences > Configuer user Snippets
 
 javascriptreact.json
 사용자 정의
+
+"emotionJsx": {
+		"prefix": "ej", // 단축키
+		"body": [
+			"/** @jsxImportSource @emotion/react */" ,
+			"import * as s from \"./style\";",
+		], // 단축키 실행될 몸체
+		"description" :"이모션 JSX Import"
+	}
