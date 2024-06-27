@@ -1,0 +1,35 @@
+Link 컴포넌트
+a태그와 차이점
+Link 링크 부분적 렌더링 - 부분 렌더링 빼고 상태값 유지
+a : 주소창으로 검색 시와 동일한 효과(새로고침) - 상태값 초기화
+
+URL 파라미터와 쿼리스트링*****
+
+URL 파라미터 예시: /profile/velopert
+쿼리스트링 예시: /articles?**page=1&keyword=react
+/articles? : url
+page=1&keyword=react : 변수 & 키 value
+
+useNavigate
+함수 안 에서 링크 이동을 할때 사용
+
+[] 디펜더시의 기준으로 함수재정의가 되냐 안되냐
+차이
+useEffect
+마운트되는 시점에 동작
+
+useMemo
+값을 저장
+디펜더시의 값의 변화가 있으면 해당 함수만 호출
+useCallback
+함수를 저장
+디펜더시의 값의 변화가 있으면 해당 함수만 호출
+
+하나만 JS파일일때
+export default로 가져옴
+
+받아올떄
+import MainContainer from "./~~~"
+import ma from "./~~~"(동일)
+
+default 
