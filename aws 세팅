@@ -1,0 +1,13 @@
+1.time_zone -> Aisa/Seoul
+2. character ->
+character_set_client -> utf8mb4
+character_set_connection -> utf8mb4
+character_set_database -> utf8mb4
+character_set_filesystem -> utf8mb4
+character_set_results -> utf8mb4
+character_set_server -> utf8mb4
+
+3. collation -> utf8mb4_0900_ai_ci
+
+4. log_bin_trust_function_creators -> 1
+함수 생성 가능 여부
