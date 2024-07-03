@@ -1,0 +1,12 @@
+Administration 클릭
+Data Export
+
+이미지 첨부 확인
+
+objects to Export에
+포함하려는 건 선택
+
+Export Options
+Export to Dump Project Folder
+Export to Self-Contained File
+중 선택
